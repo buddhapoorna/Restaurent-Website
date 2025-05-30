@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurent</title>
+    <link rel="stylesheet" href="newWebPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/chilll.jpg" alt="" height="70px" width="70px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page"  href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page"  href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page"  href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page"  href="#contact">Contact</a>
+              </li>
+              
+            </ul>
+            <form action="login.html" method="get">
+                <button type="submit" class="btn btn-danger">Login</button>
+            </form>
+            
+          </div>
+        </div>
+      </nav>
+
+    <section class="HomeSection" id="Home">
+        <video autoplay muted loop id="bg-video">
+            <source src="images/Wel (1).mp4" type="video/mp4">
+        </video>
+        <div class="left">
+            <p class="promo-text" style="font-family: cursive;">Taste the Flavor – Limited Time Offers on Your Favorite Dishes!!</p>
+            <div class="button-container">
+                <a href="#imageSection">
+                <button  type="button" class="btn btn-danger btn-lg">See Offers Now!</button>
+            </a>
+            </div>
+        </div>
+    </section>
+    <section class="image-section" id="imageSection">
+
+        <div class="container text-center py-4">
+            <h1 style="font-weight: bold; color: #d9534f; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);">
+                Today's Special Menu
+            </h1>
+            <p style="font-size: 1.2rem; color: #555;">
+                Don't miss out on our delicious dishes and exciting offers!
+            </p>
+        </div>
+    
+        <div class="container">
+            <!-- Row 1 -->
+            <div class="row mb-4">
+                <!-- Dish 1 -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow transition">
+                        <img src="images/image1.webp" alt="Gourmet Burgers" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Gourmet Burgers</h5>
+                            <p class="description">Juicy, cheesy, flavorful, fresh, satisfying.</p>
+                            <p class="price">
+                                <span class="text-muted text-decoration-line-through">₹1,040</span>
+                                <span class="text-danger fw-bold">₹800</span>
+                            </p>
+                            <a href="payment.html" class="btn btn-danger btn-lg w-100">ORDER NOW</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Dish 2 -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow transition">
+                        <img src="images/image2.webp" alt="Fresh Sushi Rolls" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Fresh Sushi Rolls</h5>
+                            <p class="description">Vibrant, delicate, authentic, colorful, premium.</p>
+                            <p class="price">
+                                <span class="text-muted text-decoration-line-through">₹1,280</span>
+                                <span class="text-danger fw-bold">₹960</span>
+                            </p>
+                            <a href="payment.html" class="btn btn-danger btn-lg w-100">ORDER NOW</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Dish 3 -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow transition">
+                        <img src="images/image3.webp" alt="Handmade Pizzas" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Handmade Pizzas</h5>
+                            <p class="description">Crispy, cheesy, authentic, delicious, fresh.</p>
+                            <p class="price">
+                                <span class="text-muted text-decoration-line-through">₹1,200</span>
+                                <span class="text-danger fw-bold">₹880</span>
+                            </p>
+                            <a href="payment.html" class="btn btn-danger btn-lg w-100">ORDER NOW</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Dish 4 -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow transition">
+                        <img src="images/image4.webp" alt="Healthy Bowls" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Healthy Bowls</h5>
+                            <p class="description">Nutritious, wholesome, refreshing, balanced.</p>
+                            <p class="price">
+                                <span class="text-muted text-decoration-line-through">₹1,120</span>
+                                <span class="text-danger fw-bold">₹840</span>
+                            </p>
+                            <a href="payment.html" class="btn btn-danger btn-lg w-100">ORDER NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Row 2 -->
+            <div class="row">
+                <!-- Dish 5 -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow transition">
+                        <img src="images/image5.webp" alt="Decadent Desserts" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Decadent Desserts</h5>
+                            <p class="description">Sweet, indulgent, rich, irresistible.</p>
+                            <p class="price">
+                                <span class="text-muted text-decoration-line-through">₹960</span>
+                                <span class="text-danger fw-bold">₹720</span>
+                            </p>
+                            <a href="payment.html" class="btn btn-danger btn-lg w-100">ORDER NOW</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Dish 6 -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow transition">
+                        <img src="images/image6.webp" alt="Grilled Meats" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Barbecued Meats</h5>
+                            <p class="description">Smoky, tender, savory, irresistible.</p>
+                            <p class="price">
+                                <span class="text-muted text-decoration-line-through">₹1,520</span>
+                                <span class="text-danger fw-bold">₹1,200</span>
+                            </p>
+                            <a href="payment.html" class="btn btn-danger btn-lg w-100">ORDER NOW</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Dish 7 -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow transition">
+                        <img src="images/image7.avif" alt="Vegan Dishes" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Vegan Dishes</h5>
+                            <p class="description">Fresh, healthy, plant-based, flavorful.</p>
+                            <p class="price">
+                                <span class="text-muted text-decoration-line-through">₹1,080</span>
+                                <span class="text-danger fw-bold">₹840</span>
+                            </p>
+                            <a href="payment.html" class="btn btn-danger btn-lg w-100">ORDER NOW</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Dish 8 -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow transition">
+                        <img src="images/image8.webp" alt="Mocktails" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Mocktails</h5>
+                            <p class="description">Vibrant, refreshing, garnished, elegant.</p>
+                            <p class="price">
+                                <span class="text-muted text-decoration-line-through">₹720</span>
+                                <span class="text-danger fw-bold">₹560</span>
+                            </p>
+                            <a href="payment.html" class="btn btn-danger btn-lg w-100">ORDER NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="images/groupphoto.webp" alt="About Us" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-6 text-center text-md-start">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="about-text">
+                        Welcome to <strong>Red Chilli</strong>, your destination for delicious flavors and unforgettable experiences. 
+                        Our journey began with a mission to bring joy to every meal by using fresh ingredients, authentic recipes, and 
+                        innovative cooking techniques.
+                    </p>
+                    <p class="about-text">
+                        Whether you're craving classic favorites or exploring new dishes, we promise to deliver the highest quality 
+                        and flavor. Join us to celebrate the art of good food and great company!
+                    </p>
+                    <a href="#imageSection">
+                    <button class="btn btn-danger btn-lg shadow-lg mt-3">Explore Our Menu</button>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title text-center">Get In Touch</h2>
+            <p class="text-center contact-intro">
+                Have any questions or need assistance? Feel free to contact us using the form below or through our contact details.
+            </p>
+            
+            <div class="row">
+                <!-- Contact Info -->
+                <div class="col-md-6 contact-info">
+                    <h4>Contact Information</h4>
+                    <p><i class="fas fa-phone-alt"></i> <strong>Phone:</strong>+1-234-567-8901 </p>
+                    <p><i class="fas fa-envelope"></i> <strong>Email:</strong> redchilli@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Address:</strong> 123 Food Street, Gourmet City, FL 12345</p>
+                    <p><i class="fas fa-clock"></i> <strong>Hours:</strong> Mon-Sun: 10 AM - 10 PM</p>
+                    
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="col-md-6">
+                    <form action="#" method="post" class="contact-form">
+                        <div class="mb-4">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Full Name" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email Address" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-danger btn-lg w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+    
+            <!-- Optional Map -->
+            <div class="row mt-5">
+                <div class="col">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509849!2d-122.41941508468225!3d37.77492977975996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858173e12e4d6f%3A0xbfe4c58f6b79216a!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1673713078653!5m2!1sen!2sin" 
+                        width="100%" 
+                        height="350" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <!-- About -->
+                <div class="col-md-4">
+                    <h4>About Us</h4>
+                    <p>We serve delicious, high-quality dishes made with fresh ingredients. Your satisfaction is our priority!</p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="col-md-4">
+                    <h4>Quick Links</h4>
+                    <ul class="quick-links">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#imageSection">Menu</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="col-md-4">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Food Street, Gourmet City, FL 12345</p>
+                    <p><i class="fas fa-phone-alt"></i></p>
+                    <p><i class="fas fa-envelope"></i> redchilli@gmail.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"><img src="images/facebook.png" alt="" height="30px" width="30px"></i></a>
+                        <a href="#"><i class="fab fa-instagram"><img src="images/instagram.jpeg" alt="" height="30px" width="30px"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i><img src="images/twitter.jpeg" alt="" height="30px" width="30px"></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 redchilli. All Rights Reserved.</p>
+                <a href="#privacy-policy">Privacy Policy</a> | <a href="#terms-conditions">Terms & Conditions</a>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

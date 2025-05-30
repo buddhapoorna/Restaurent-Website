@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Details</title>
+  <style>
+    body {
+        font-family: 'Poppins', sans-serif;
+            background: url('images/red-chili-pepper-fire_861748-51440.jpg') no-repeat center center/cover;
+            min-height: 100vh;
+    }
+    .form-container {
+        padding: 30px;
+        
+      max-width: 400px;
+      margin: 0 auto;
+      background-color:rgba(77, 42, 42, 0.9);
+      
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    .form-container h2 {
+      
+      text-align: center;
+      color: #FF5733;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #6c5555;
+      border-radius: 5px;
+    }
+    button {
+      width: 100%;
+      padding: 15px;
+      background-color: #FF5733;
+      color: white;
+      border: none;
+      font-size: 1.2em;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #e04d2b;
+    }
+    label{
+          color: rgb(141, 129, 132);
+          font-weight: 600px;
+        }
+        input{
+            background-color: #f5dbdb;
+        }
+        #address{
+            background-color: #f5dbdb;
+           
+        }
+        #payment{
+            background-color: #f5dbdb;
+        }
+  </style>
+</head>
+<body>
+
+<div class="form-container">
+  <h2>Enter Your Details for Delivery & Payment</h2>
+  
+  <form action="payment-page.html" method="post">
+    <label for="name"  >Full Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+     <label for="address">Delivery Address:</label>
+    <textarea id="address" name="address" rows="4" placeholder="Enter your address"></textarea>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter your Phone Number">
+
+    <label for="payment">Payment Method:</label>
+    <select id="payment" name="payment" required>
+      <option value="credit-card">Credit Card</option>
+      <option value="paypal">PayPal</option>
+      <option value="cash-on-delivery">Cash on Delivery</option>
+    </select></br></br>
+    
+    <button type="submit">Proceed to Payment</button>
+  </form>
+</div>
+
+</body>
+</html>
